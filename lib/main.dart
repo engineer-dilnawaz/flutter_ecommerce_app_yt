@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_ecommerce_app_yt/screens/bottom_nav.dart';
 import 'package:flutter_ecommerce_app_yt/screens/home.dart';
 import 'package:flutter_ecommerce_app_yt/screens/onboarding.dart';
 
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: HomeScreen(),
+      home: BottomNav(),
     );
   }
 }
